@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiLanguageWireAdan</name>
+    </assembly>
+    <members>
+        <member name="M:ApiLanguageWireAdan.Controllers.TranslateController.Get(System.String,System.String,System.String)">
+            <summary>
+            It translates. 
+            </summary>
+            <param name="textToTransform">the text to transform. It only works with "Hello, how are you?" in a supported language, unless you select Jerigonza and are in Spain</param>
+            <param name="languageFrom">de-DE,en-US,es-ES,fr-FR,it-IT</param>
+            <param name="languageTo">de-DE,en-US,es-ES,fr-FR,it-IT,Jerigonza</param>
+            <example>
+            languageFrom= es-ES, languageTo= en-US. textToTransform= "Hola, ¿cómo estás?" will result in "Hello, how are you?
+            </example>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
